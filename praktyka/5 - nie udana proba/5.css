@@ -1,0 +1,102 @@
+body
+{
+    background-image: url("img/hexellence.png");
+}
+#container
+{
+    font-size: 20px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo
+{
+    background-color: black;
+    color: white;
+    width: 980px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+}
+#nav
+{
+    background-color: lightgray;
+    color: black;
+    width: 120px;
+    min-height: 605px;
+    padding: 10px;
+    float: left;
+}
+ol
+{
+    list-style-type: none;
+    display: inline-block;
+}
+ol a
+{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+ol>li
+{
+    width: 140px;
+    border-bottom: 1px solid black;
+}
+ol>li:first-child
+{
+    border-top: 1px solid black;
+}
+ol>li:hover
+{
+    background-color: darkgray;
+}
+ol>li:hover >a
+{
+    color: white;
+}
+ol>li>ul
+{
+    list-style-type: none;
+    display: none;
+}
+ol>li:hover>ul
+{
+    display: block;
+}
+ol>li>ul>li
+{
+    background-color: darkgray;
+    position: relative;
+    z-index: 100;
+}
+ol>li>ul>li:first-child
+{
+    border-bottom: 1px solid black;
+}
+#content
+{
+    background-color: white;
+    color: black;
+    width: 640px;
+    padding: 20px;
+    min-height: 580px;
+    float: left;
+}
+#ad
+{
+    background-color: lightgrey;
+    width: 160px;
+    padding: 10px;
+    min-height: 600px;
+    float: left;
+}
+#footer
+{
+    height: 20px;
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

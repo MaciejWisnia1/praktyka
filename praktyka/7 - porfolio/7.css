@@ -1,0 +1,214 @@
+body
+{
+    background-color: #303030;
+    color: white;
+}
+#container
+{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.rectangle
+{
+    width: 960px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+#logo
+{
+    font-size: 45px;
+    float: left;
+    width: 600px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+}
+#clock
+{
+    font-size: 35px;
+    float: right;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+}
+.square
+{
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+.tile1
+{
+    background-color: #009dff;
+    width: 230px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+.tile1:hover
+{
+    background-color: #008cee;
+    width: 230px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+.tile2
+{
+    background-color: #666666;
+    width: 230px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+.tile2:hover
+{
+    background-color: #555555;
+    width: 230px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+.tile3
+{
+    background-color: #7fde45;
+    width: 230px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+.tile3:hover
+{
+    background-color: #6ecd34;
+    width: 230px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+.tile4
+{
+    background-color: #ff5100;
+    width: 480px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+.tile5
+{
+    background-color: #666666;
+    width: 480px;
+    height: 304px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+.yt
+{
+    background-color: #d94348;
+    width: 105px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+.yt:hover
+{
+    background-color: #c83237;
+    width: 105px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+.fb
+{
+    background-color: #4668b3 ;
+    width: 105px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+}
+.fb:hover
+{
+    background-color: #3557a2 ;
+    width: 105px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+}
+.gplus
+{
+    background-color: #d95333 ;
+    width: 105px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+}
+.gplus:hover
+{
+    background-color: #c84222 ;
+    width: 105px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+}
+.tw
+{
+    background-color: #3095d3 ;
+    width: 105px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+}
+.tw:hover
+{
+    background-color: #2084c3 ;
+    width: 105px;
+    height: 142px;
+    margin: 10px;
+    float: left;
+}
+.tytul
+{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.tresc
+{
+    font-size: 18px;
+}
+a.tilelink
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    height: 142px;
+}
+a.tilelinks
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 105px;
+    height: 142px;
+}
+a.home
+{
+    color: white;
+    text-decoration: none;
+}
