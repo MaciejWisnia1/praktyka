@@ -5,21 +5,28 @@
         <title>Obrazki ze smiesznymi kotkami</title>
         <meta name="author" content="Maciej Wisniewski">
         <meta name="description" content="Jest w porzadku">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body style="background-color: rgb(187, 255, 227);">
-        <h1>naglowek h1</h1>
+        <!-- naglowki i etykieta-->
+        <a href="#gepard">
+            <h1>naglowek h1</h1>
+        </a>
         <h2>naglowek h2</h2>
         <h3>naglowek h3</h3>
         <h4>naglowek h4</h4>
         <h5>naglowek h5</h5>
         <h6>naglowek h6</h6>
+        <!-- tittle i span -->
         Maciej Wisniewski<br>
         stan cywilny: <span title="&quot;Tak&quot; - powiedzial Maciej&copy;">zyje</span>
         <p></p><br>
+        <!-- zastosowanie & -->
         &lt;b> - sluzy do pogrubania<br>
         &amp;lt; sluzy do postawienia &lt; w kodzie<br>
         spacja &nbsp; &nbsp; &nbsp; &nbsp; spacja<br>
         <p></p><br>
+        <!-- lista -->
         <ul>
             <li>hejo</li>
             <li>tutaj</li>
@@ -28,6 +35,7 @@
             <li>:D</li>
         </ul>
         <p></p><br>
+        <!-- lista definiacji -->
         <dl>
             <dt>&lt;head></dt>
             <dd>informacje o stronie</dd>
@@ -36,13 +44,127 @@
             <dd>tytul strony</dd>
         </dl>
         <p></p><br>
+        <!-- email i telefon -->
         <address>
             <a href="mailto:maciekwisniewski@gmail.pl?dubject=Zapytanie ze strony: ">maciekwisniewski@gmail.pl</a>
-        </address>
-        <br><p></p>
+        </address><br>
         <a href="tel:+48666666666">+48 666 666 666</a>
         <p></p><br>
-        <img src="img/gepard.jpg" alt="Gepard" width="450" height="278">
+        <!-- cytaty -->
+        <cite>Albert Ajnsztajn</cite>
+        <blockquote>powiedzialem ze nieuki robia wynalazki</blockquote>
+        <br>
+        <p>Adam powiedzial<q>powiedz jej ze ja lubie</q></p>
+        <p><br></p>
+        <!-- takie b, i oraz marker z dodatkowym znaczeniem wyroznienie dla robotow -->
+        <strong>sila</strong><br>
+        <em>polamaniec</em><br>
+        <mark>flamajster</mark><br>
+        <br><p></p>
+        <!-- na dole i na gorze literki -->
+        H<sub>2</sub>O <br>
+        x<sup>2</sup>=0
+        <br><p></p>
+        <!-- oznaczenie kodu i zachowanie jego formatowania -->
+        <pre>
+            <code>
+#include
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cout &lt;&lt; "Podaj a: "&lt;
+    cin >>a;
+    cout &lt;&lt; "Podaj b: "&lt;
+    cin >>b;
+    c=a+b;
+    cout &lt;&lt; "Suma dwoch liczb to " &lt;&lt; c&lt;
+}
+            </code>
+        </pre>
+        <br><p></p>
+        <!-- formularz logowania -->
+        <!-- method post ukrywa haslo i login pokazywanym w pasku wyszukiwania -->
+        <form action="login.php" method="post">
+            Login: <input type="text" name="login" placeholder="login"><br><br>
+            Haslo: <input type="password" name="pw" placeholder="haslo"><br><br>
+            <input type="submit" value="zaloguj sie">
+        </form>
+        <br><p></p>
+        <!-- formularz wyboru -->
+        <form action="ankieta.php">
+            <fieldset>
+                <legend>Ile masz lat?</legend>
+                <input type="radio" name="kategoria_wiekowa" id="kw1" value="dzieci" checked> <label for="kw1">7-18</label><br>
+                <input type="radio" name="kategoria_wiekowa" id="kw2" value="mlodziez"> <label for="kw2">19-25</label><br>
+                <input type="radio" name="kategoria_wiekowa" id="kw3" value="staruszkowie"> <label for="kw3">26-40</label><br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Jakie jest twoje hobby?</legend>
+                <input type="checkbox" name="hobby" id="plywanie" value="plywanie"><label for="plywanie">plywanie</label><br>
+                <input type="checkbox" name="hobby" id="bieganie" value="bieganie"><label for="bieganie">bieganie</label><br>
+                <input type="checkbox" name="hobby" id="skakanie" value="skakanie"><label for="skakanie">skakanie</label><br>
+            </fieldset><br>
+            Nr domu: <input name="text" required autofocus autocomplete="on" size="20" maxlength="10" placeholder="prosze uzupelnic pole" value="5">&nbsp;
+            Nr mieszkania <input name="text" autocomplete="on" size="10" maxlength="5" placeholder="opcjonalne"><br>
+
+            <input type="submit" value="Wyslij">
+        </form>
+        <br><p></p>
+        <!-- formularz kontaktu -->
+        <form action="kontakt.php" method="post">
+            <legend>Kontakt do mnie</legend>
+            <fieldset>
+                E-mail: <input type="email" name="email" id="email" placeholder="@" required><br><br>
+                Imie: <input type="text" name="imie" id="imie" required><br><br>
+                Temat: <input type="text" name="temat" id="temat" required><br><br>
+                Tresc: <br> <textarea name="tresc" id="tresc" cols="30" rows="10" placeholder="Jak mozemy Ci pomoc?" required></textarea><br>
+                <input type="submit" value="Wyslij">
+            </fieldset>
+        </form>
+        <br><p></p>
+        <!-- data i godzina -->
+        <form>
+            <input type="date" min="2020-01-01" max="2025-01-01">
+            <input type="time">
+        </form>
+        <br><p></p>
+        <!--tabela -->
+        <table>
+            <caption>Video kursy</caption>
+            <thead>
+                <tr>
+                    <th>Nazwa</th><th>Cena(zl)</th><th>Kategoria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>C++</td><td>49</td><td rowspan="3">Programowanie</td>
+                </tr>
+                <tr>
+                    <td>Java</td><td>39</td>
+                </tr>
+                <tr>
+                    <td>PHP</td><td>25</td>
+                </tr>
+                <tr>
+                    <td>HTML</td><td>49</td><td rowspan="3">WWW</td>
+                </tr>
+                <tr>
+                    <td>CSS</td><td>39</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td><td>25</td>
+                </tr>
+                <tr>
+                    <td colspan="3">kursy w jezyku polskim</td>
+                </tr>
+            </tbody>
+        </table>
+        <p></p><br>
+        <!-- obrazek i etykieta -->
+        <a name="gepard" href="#top"><img src="img/gepard.jpg" alt="Gepard" width="450" height="278"></a>
 
     </body>
 </html>
