@@ -1,0 +1,100 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: #333;
+}
+/* Paleta kolorow #000000, #666666, #e60000, #ff0000, #ff3333 */
+#container
+{
+    width: 1004px;
+    margin: 0 auto;
+}
+#logobox
+{
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo
+{
+    position: absolute;
+    color: white;
+    left: 30px;
+    bottom: auto;
+    font-size: 2em;
+}
+#menu
+{
+    position: absolute;
+    left: 110px;
+    bottom: 0px;
+}
+#menu2
+{
+
+}
+#menulist li
+{
+    list-style-type: none;
+    float: left;
+    padding: 0px 5px;
+}
+#menulist li a
+{
+    background-color: #666;
+    border: 1px solid #999;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+#menulist li a:hover
+{
+    background-color: #999;
+    border: 1px solid #666;
+}
+.menulink
+{
+    margin-top: 10px;
+}
+#menulist2
+{
+    margin-top: 10px;
+    background-color: #ff3333;
+    width: 1000px;
+    height: 32px;
+}
+#menulist2 li
+{
+    list-style-type: none;
+    float: left;
+    padding: 0px 10px;
+
+}
+#menulist2 li a
+{
+    text-decoration: none;
+    color: white;
+    border: 1px solid #bb0000;
+    background-color: #ee0000;
+    display: inline-block;
+    padding: 5px 5px;
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#footer
+{
+    width: 100%;
+    height: 50px;
+}
