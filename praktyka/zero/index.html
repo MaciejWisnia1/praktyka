@@ -6,39 +6,74 @@
     <meta author="Maciej Wisniewski">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Zero</title>
 </head>
 <body>
     <div id="logobox">
-        <div id="logo"><a href="#">Maciej Wiśniewski</a></div>
+        <div id="logo"><a href="#">Human Farm</a></div>
+        <input type="button" value="Log in" class="sign" onclick="parent.location='login.html'">
+        <input type="button" value="Register" class="sign" onclick="parent.location='register.html'">
         <div id="menu">
             <ul>
-                <li><a href="#">O mnie</a></li>
-                <li><a href="#">Zainteresowania</a></li>
-                <li><a href="#">Galeria</a></li>
-                <li><a href="#">cos</a></li>
-                <li><a href="#">5 tralalala</a></li>
-                <li><a href="#">6 tralalala</a></li>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">Contact</a></li>
+                <li style="float: right;"><a href="#">About</a></li>
             </ul>
         </div>
         <!--menu end-->
     </div>
+    <div id="container">
         <div id="pod-menu">
             <ul>
-                <li><a href="#">O mnie 2</a></li>
-                <li><a href="#">Zainteresowania 2</a></li>
-                <li><a href="#">Galeria 2</a></li>
-                <li><a href="#">11112222</a></li>
-                <li><a href="#">11113333</a></li>
-                <li><a href="#">11114444</a></li>
+                <li class="dropdown"><a href="#">The Beginnings of the Farm</a>
+                    <div class="dropdowncon">
+                        <a href="#">The Beginnings of the Farm: Part 1</a>
+                        <a href="#">The Beginnings of the Farm: Part 2</a>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Human Farm</a>
+                    <div class="dropdowncon">
+                        <a href="#">Human Farm: First Mutation</a>
+                        <a href="#">Human Farm: Stranger Newcomer</a>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Mutations</a>
+                    <div class="dropdowncon">
+                        <a href="#">Mutations: Second Head</a>
+                        <a href="#">Mutations: Four Arms</a>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Rituals</a>
+                    <div class="dropdowncon">
+                        <a href="#">Rituals: Demon Summoning</a>
+                        <a href="#">Rituals: Begging for a Gift</a>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Relics</a>
+                    <div class="dropdowncon">
+                        <a href="#">Relics: Satanic Cape</a>
+                        <a href="#">Relics: Belt of the Thousand Mountains </a>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Ideology</a>
+                    <div class="dropdowncon">
+                        <a href="#">Ideology: Beginnings</a>
+                        <a href="#">Ideology: Gods</a>
+                    </div>
+                </li>
             </ul>
             <!--menu2 end-->
         </div>
-    <div id="container">
-        <div class="contentr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus magni atque reprehenderit in placeat accusantium non officiis, iure sequi eum quasi, earum natus dolor iusto ducimus nam! Ut, quibusdam ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui adipisci libero consequatur expedita itaque et vitae. Illo ducimus tenetur cupiditate natus aperiam modi aspernatur inventore, tempora facere doloribus reprehenderit quisquam?</div>
-        <div class="contentl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quas eveniet, veniam repudiandae adipisci, necessitatibus eius corporis hic odit voluptatibus debitis tempora, reprehenderit quae quasi dolores voluptatem a ex similique! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae rerum vero quod rem, quia quaerat qui ex excepturi eligendi eius quo facilis vitae dolor repellendus adipisci cum necessitatibus minus assumenda!</div>
+        <div id="contentmenu"></div>
+        <div class="content">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus magni atque reprehenderit in placeat accusantium non officiis, iure sequi eum quasi, earum natus dolor iusto ducimus nam! Ut, quibusdam ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui adipisci libero consequatur expedita itaque et vitae. Illo ducimus tenetur cupiditate natus aperiam modi aspernatur inventore, tempora facere doloribus reprehenderit quisquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias distinctio quia ex ipsam quasi velit voluptatum, labore sapiente est explicabo quos at non aliquam praesentium nulla ipsum eveniet reiciendis voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur omnis, culpa accusamus quidem, non vero voluptas consequuntur dicta harum adipisci tempore laudantium exercitationem! Consequatur atque impedit tenetur beatae nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fugiat commodi aliquam tempora cupiditate animi aperiam ex in, totam odit nobis excepturi porro neque perferendis omnis nostrum iste atque magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis est eveniet dolore quae consequatur voluptate possimus quia, sequi voluptas sint omnis quos unde magnam voluptatibus itaque nemo, eos consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus magni atque reprehenderit in placeat accusantium non officiis, iure sequi eum quasi, earum natus dolor iusto ducimus nam! Ut, quibusdam ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui adipisci libero consequatur expedita itaque et vitae. Illo ducimus tenetur cupiditate natus aperiam modi aspernatur inventore, tempora facere doloribus reprehenderit quisquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias distinctio quia ex ipsam quasi velit voluptatum, labore sapiente est explicabo quos at non aliquam praesentium nulla ipsum eveniet reiciendis voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur omnis, culpa accusamus quidem, non vero voluptas consequuntur dicta harum adipisci tempore laudantium exercitationem! Consequatur atque impedit tenetur beatae nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fugiat commodi aliquam tempora cupiditate animi aperiam ex in, totam odit nobis excepturi porro neque perferendis omnis nostrum iste atque magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis est eveniet dolore quae consequatur voluptate possimus quia, sequi voluptas sint omnis quos unde magnam voluptatibus itaque nemo, eos consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus magni atque reprehenderit in placeat accusantium non officiis, iure sequi eum quasi, earum natus dolor iusto ducimus nam! Ut, quibusdam ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui adipisci libero consequatur expedita itaque et vitae. Illo ducimus tenetur cupiditate natus aperiam modi aspernatur inventore, tempora facere doloribus reprehenderit quisquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias distinctio quia ex ipsam quasi velit voluptatum, labore sapiente est explicabo quos at non aliquam praesentium nulla ipsum eveniet reiciendis voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur omnis, culpa accusamus quidem, non vero voluptas consequuntur dicta harum adipisci tempore laudantium exercitationem! Consequatur atque impedit tenetur beatae nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fugiat commodi aliquam tempora cupiditate animi aperiam ex in, totam odit nobis excepturi porro neque perferendis omnis nostrum iste atque magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis est eveniet dolore quae consequatur voluptate possimus quia, sequi voluptas sint omnis quos unde magnam voluptatibus itaque nemo, eos consectetur.
+        </div>
+        <div id="contentmenu"></div>
         <!-- container end -->
     </div>
-    <div id="footer"></div>
+    <div id="footer">Comic's series - Human Farm &copy; by Mystery Team</div>
 </body>
 </html>
