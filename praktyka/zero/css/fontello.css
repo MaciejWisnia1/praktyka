@@ -27,9 +27,7 @@
 
   display: inline-block;
   text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
+
   /* opacity: .8; */
 
   /* For safety - reset parent styles, that can break glyph codes*/
@@ -41,7 +39,7 @@
 
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+
 
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
@@ -54,7 +52,7 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-home:before { content: '\e800'; } /* '' */
+.icon-home:before { content: '\e800'; font-size: 1.5em; } /* '' */
 .icon-user:before { content: '\e801'; } /* '' */
 .icon-search:before { content: '\e802'; } /* '' */
 .icon-mail:before { content: '\e804'; } /* '' */
