@@ -66,6 +66,12 @@ ul
     background-color: #e4fd48;
     text-decoration: none;
 }
+#signup:hover
+{
+    background-color: #d3ec37;
+    border: 2px solid #d3ec37;
+    transition: all 0.5s;
+}
 #content
 {   
     overflow: hidden;
@@ -114,6 +120,12 @@ ul
     background-color: #e4fd48;
     text-decoration: none;
 }
+#info3:hover
+{
+    background-color: white;
+    border: 2px solid white;
+    transition: all 0.5s ease;
+}
 #info4
 {
     display: block;
@@ -122,7 +134,7 @@ ul
 }
 #content2   
 {
-    
+
     max-width: 380px;
 }
 #bg
