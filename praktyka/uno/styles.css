@@ -1,0 +1,132 @@
+/* #e4fd48 zielony, #00cccc, #00c1c1, #57e0e0 turkusowe, #57e0e0 szary */
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: #00c1c1;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+#header
+{
+    position: relative;
+    top: 0px;
+    background-color: #00cccc;
+    width: calc(100%-60px);
+    height: 30px;
+    padding: 34px 30px 28px;
+}
+#logo
+{
+    float: left;
+}
+#navlist
+{
+    float: right;
+    padding-right: 220px;
+    min-width: 700px;
+}
+ul
+{
+    list-style-type: none;
+}
+#navbar li a
+{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    float: left;
+    margin: 5px 20px 0px;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-bottom: 18px;
+}
+#navbar li a:hover
+{
+    border-bottom: 2px solid white;
+}
+#signup
+{
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    color: #00cccc;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    display: inline-block;
+    border: 2px solid #e4fd48;
+    background-color: #e4fd48;
+    text-decoration: none;
+}
+#content
+{   
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding-top: 65px;
+    background-color: #00c1c1;
+}
+#content1
+{   
+    max-width: 1070px;
+    margin: 0px auto;
+    position: relative;
+}
+#info
+{
+    max-width: 1070px;
+    display: block;
+    position: absolute;
+    top: 236px;
+    left: 0px;
+}
+#info1
+{
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 1.4em;
+    letter-spacing: 2px;
+}
+#info2
+{
+    display: block;
+    margin: 25px 0px 35px 0px;
+    line-height: 23px;
+}
+#info3
+{
+    color: #00cccc;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    display: inline-block;
+    border: 2px solid #e4fd48;
+    background-color: #e4fd48;
+    text-decoration: none;
+}
+#info4
+{
+    display: block;
+    font-size: 10px;
+    margin: 10px 0px;
+}
+#content2   
+{
+    
+    max-width: 380px;
+}
+#bg
+{
+    max-width: none;
+    display: inline-block;
+}
