@@ -26,31 +26,63 @@ body
 #navlist
 {
     float: right;
-    padding-right: 220px;
-    min-width: 700px;
+    padding-right: 170px;
+    min-width: 800px;
 }
 ul
 {
     list-style-type: none;
 }
-#navbar li a
+#navbar li a:not(#sign-up)
 {
     text-align: center;
     text-decoration: none;
     color: white;
     display: inline-block;
     float: left;
-    margin: 5px 20px 0px;
+    margin: 5px 25px 0px;
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 2px;
     padding-bottom: 18px;
 }
-#navbar li a:hover
+#navbar li a:hover:not(#sign-up)
 {
     border-bottom: 2px solid white;
 }
-#signup
+
+#dropdown
+{
+    position: relative;
+}
+#dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+#dropdown-content a 
+{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    padding: 12px 16px;
+    min-width: 170px;
+    text-decoration: none;
+    display: block;
+}
+#dropdown-content a:hover
+{
+    background-color: #eee;
+}
+#dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+#sign-up
 {
     position: absolute;
     top: 22px;
@@ -66,7 +98,7 @@ ul
     background-color: #e4fd48;
     text-decoration: none;
 }
-#signup:hover
+#sign-up:hover
 {
     background-color: #d3ec37;
     border: 2px solid #d3ec37;
@@ -94,20 +126,20 @@ ul
     top: 236px;
     left: 0px;
 }
-#info1
+#info-title
 {
     font-size: 36px;
     font-weight: bolder;
     line-height: 1.4em;
     letter-spacing: 2px;
 }
-#info2
+#info-content
 {
     display: block;
     margin: 25px 0px 35px 0px;
     line-height: 23px;
 }
-#info3
+#info-button
 {
     color: #00cccc;
     font-size: 16px;
@@ -120,13 +152,13 @@ ul
     background-color: #e4fd48;
     text-decoration: none;
 }
-#info3:hover
+#info-button:hover
 {
     background-color: white;
     border: 2px solid white;
     transition: all 0.5s ease;
 }
-#info4
+#info-card
 {
     display: block;
     font-size: 10px;
